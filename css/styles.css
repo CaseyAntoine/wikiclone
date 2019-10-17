@@ -1,0 +1,31 @@
+input{
+  display: inline-block;
+}
+#nav{
+  display: inline-block;
+}
+
+#top-nav{
+  list-style: none;
+  float: right;
+}
+
+#top-nav li{
+  display:inline-block;
+  padding-left: 10px;
+}
+
+#sidebar{
+  float: left;
+}
+#sidebar ul{
+  list-style: none;
+}
+
+.meta_subject_nav{
+  column-count: 3;
+}
+
+#Portals {
+  font-weight: bold;
+}

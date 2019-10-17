@@ -14,7 +14,7 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-10">
-          <ul>
+          <ul  id="top-nav">
             <li>not logged in</li>
             <li><a href="#">Talk</a></li>
             <li><a href="#">Contributions</a></li>
@@ -24,27 +24,40 @@
 
         </div>
         <div class="row">
-          <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a href="#">Main Page</a></li>
-            <li role="presentation"><a href="#">Talk</a></li>
-          </ul>
-
-          <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a href="#">Read</a></li>
-            <li role="presentation"><a href="#">View source</a></li>
-            <li role="presentation"><a href="#">View history</a></li>
-          </ul>
-          <input type="text" name="search" value="Search Wikipedia">
+          <div class="col-md-6">
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#">Main Page</a></li>
+              <li role="presentation"><a href="#">Talk</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul id="nav" class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#">Read</a></li>
+              <li role="presentation"><a href="#">View source</a></li>
+              <li role="presentation"><a href="#">View history</a></li>
+            </ul>
+            <input type="text" name="search" value="Search Wikipedia">
+          </div>
         </div>
         <div class="row">
+          <div id="sidebar" class="col-md-2">
+            <ul>
+              <li><a href="#">Main </a></li>
+              <li><a href="#">Contents</a></li>
+              <li><a href="#">Featured</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1">
+
+          </div>
           <div class="col-md-3">
             <h1> Welcome to <a href="#">Wikipedia</a>,</h1>
             <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a>.</p>
             <p><a href="#">5,952,968</a> articles in <a href="#">English</a></p>
           </div>
 
-          <div class="col-md-6">
-            <ul>
+          <div class="col-md-5">
+            <ul class="meta_subject_nav">
               <li><a href="#">Arts</a></li>
               <li><a href="#">Biography</a></li>
               <li><a href="#">Geography</a></li>
@@ -53,7 +66,7 @@
               <li><a href="#">Science</a></li>
               <li><a href="#">Society</a></li>
               <li><a href="#">Technology</a></li>
-              <li><a href="#">All Portals</a></li>
+              <li id="Portals"><a href="#">All Portals</a></li>
             </ul>
 
           </div>
